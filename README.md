@@ -3,7 +3,7 @@
 #include <LiquidCrystal.h>
 
 // se define el pin del sensor DHT y su tipo
-#define DHTPIN 2
+#define DHTPIN A0
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
